@@ -3,4 +3,4 @@
 
 ## Results
 
-### For `pre-trained` model and the `prediction result` maps, please see [Here](链接：https://pan.baidu.com/s/1KtX4jIwsQi_-ZgbrDxPEWQ?pwd=ghp3) password：ghp3
+### For `pre-trained` model and the `prediction result` maps, please see [Here](https://pan.baidu.com/s/1KtX4jIwsQi_-ZgbrDxPEWQ?pwd=ghp3) password：ghp3
