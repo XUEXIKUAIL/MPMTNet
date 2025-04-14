@@ -148,19 +148,19 @@ Put our pre-trained weight in the following file ./evaluate.py, and run [evaluat
 | Model            | Backbone    | PST900 Dataset |              |
 | ---------------- | ----------- | -------------- | ------------ |
 |                  |             | mAcc(%)        | mIoU(%)      |
-| MFNet 17[60]     | -           | 63.50          | 50.34        |
-| ACNet 19[17]     | ResNet-50   | 78.67          | 71.81        |
-| RTFNet 19[62]    | ResNet-152  | 65.69          | 60.46        |
-| PSTNet 20[61]    | ResNet-18   | -              | 68.36        |
-| ABMDRNet 21[63]  | ResNet-50   | 79.06          | 71.33        |
-| MMDRNet 23[64]   | ResNet-50   | 81.30          | 68.70        |
-| HAFFSeg 23[65]   | MobileViT   | 96.10          | 83.80        |
-| FDCNet 23[66]    | ResNet-50   | 85.96          | 77.11        |
-| MMSMCNet 23[67]  | MiT-B3      | 95.20          | 79.80        |
-| CLSNet-S* 24[68] | SegformerB2 | 94.59          | 78.41        |
-| MMDNet 24[69]    | ResNet-50   | 91.04          | 74.62        |
-| MDBFNet 24[70]   | ResNet-50   | 92.50          | 84.90        |
-| RSFNet 24[71]    | ResNet101   | 85.70          | 79.10        |
+| MFNet ~17~[60]     | -           | 63.50          | 50.34        |
+| ACNet ~19~[17]     | ResNet-50   | 78.67          | 71.81        |
+| RTFNet 2019[62]    | ResNet-152  | 65.69          | 60.46        |
+| PSTNet 2020[61]    | ResNet-18   | -              | 68.36        |
+| ABMDRNet 2021[63]  | ResNet-50   | 79.06          | 71.33        |
+| MMDRNet 2023[64]   | ResNet-50   | 81.30          | 68.70        |
+| HAFFSeg 2023[65]   | MobileViT   | 96.10          | 83.80        |
+| FDCNet 2023[66]    | ResNet-50   | 85.96          | 77.11        |
+| MMSMCNet 2023[67]  | MiT-B3      | 95.20          | 79.80        |
+| CLSNet-S* 2024[68] | SegformerB2 | 94.59          | 78.41        |
+| MMDNet 2024[69]    | ResNet-50   | 91.04          | 74.62        |
+| MDBFNet 2024[70]   | ResNet-50   | 92.50          | 84.90        |
+| RSFNet 2024[71]    | ResNet101   | 85.70          | 79.10        |
 | MPMTNet-T        | SegformerB4 | 95.74          | 81.87        |
 | MPMTNet-S        | SegformerB2 | 94.01          | 74.71        |
 | MPMTNet-KD       | SegformerB2 | 95.11(1.1↑)    | 76.19(1.48↑) |
