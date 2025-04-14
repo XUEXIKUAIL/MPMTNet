@@ -169,7 +169,7 @@ Put our pre-trained weight in the following file ./evaluate.py, and run [evaluat
 
 The implement of this project is based on the codebases bellow.💪With thanks to all the workers open code for their help.🙏
 
-- [Segformer]([NVlabs/SegFormer: Official PyTorch implementation of SegFormer](https://github.com/NVlabs/SegFormer))
+- [Segformer](https://github.com/NVlabs/SegFormer)
 - [DGPINet-KD]([XUEXIKUAIL/DGPINet](https://github.com/XUEXIKUAIL/DGPINet))
 
 
