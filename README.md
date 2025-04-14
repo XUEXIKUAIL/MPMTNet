@@ -12,7 +12,7 @@
 
 ### Framework
 
-![image-20250408171223382](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20250408171223382.png)
+![image-20250408171223382](https://github.com/user-attachments/assets/0dc4af05-ea5c-46c2-9e49-15782462859a)
 
 ### Implementation
 
@@ -51,7 +51,7 @@ SUN-RGBD dataset can be download here [SUN-RGBD](https://rgbd.cs.princeton.edu/d
 
 2. Put the segformer pre-trained weight in the following file ./train.py, and refer to the modification as shown.
 
-######      ![image-20250408164118359](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20250408164118359.png) 
+![image-20250408164118359](https://github.com/user-attachments/assets/9dce5891-c89c-40a2-984d-96afd087a461)
 
 3. Now，You can run train.py！
 
@@ -67,7 +67,7 @@ If you only want to test the performance, we also provide our trained weights fo
 
 Put our pre-trained weight in the following file ./evaluate.py, and run [evaluate.py]([MPMTNet/evaluate.py at main · XUEXIKUAIL/MPMTNet](https://github.com/XUEXIKUAIL/MPMTNet/blob/main/evaluate.py))！
 
- ![image-20250408171103248](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20250408171103248.png)
+![image-20250408171103248](https://github.com/user-attachments/assets/ddffccf1-2a7a-49bf-ab8f-deda34e8042b)
 
 ### Experiments
 
@@ -171,7 +171,5 @@ The implement of this project is based on the codebases bellow.💪With thanks t
 
 - [Segformer](https://github.com/NVlabs/SegFormer)
 - [DGPINet-KD]([XUEXIKUAIL/DGPINet](https://github.com/XUEXIKUAIL/DGPINet))
-
-
 
 ### 
