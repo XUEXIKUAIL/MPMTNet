@@ -121,49 +121,49 @@ Put our pre-trained weight in the following file ./evaluate.py, and run [evaluat
 | MPMTNet-S       |                | 81.7      | 63.3 | 49.2 |
 | MPMTNet-KD      |                | 82.2      | 64.1 | 50.8 |
 
-​				**Table III**   Evaluation metrics on MFNet obtained from compared methods. The best results are shown in bold.
+    ​**Table III**   Evaluation metrics on MFNet obtained from compared methods. The best results are shown in bold.
 
-| Model            | Backbone    | MFNet Dataset |            |
-| ---------------- | ----------- | ------------- | ---------- |
-|                  |             | mAcc(%)       | mIoU(%)    |
-| MFNet 17[60]     | -           | 45.1          | 39.7       |
-| ACNet 19[17]     | ResNet-50   | -             | 46.3       |
-| RTFNet 19[62]    | ResNet-152  | 63.1          | 53.2       |
-| PSTNet 20[61]    | ResNet-18   | -             | 48.4       |
-| ABMDRNet 21[63]  | ResNet-50   | 69.5          | 54.8       |
-| MMDRNet 23[64]   | ResNet-50   | 72.4          | 56.0       |
-| HAFFSeg 23[65]   | MobileViT   | 73.8          | 59.2       |
-| FDCNet 23[66]    | ResNet-50   | 74.1          | 56.3       |
-| MMSMCNet 23[67]  | SegformerB3 | 75.2          | 58.1       |
-| CLSNet-S* 24[68] | SegformerB2 | 74.7          | 57.3       |
-| MMDNet 24[69]    | ResNet-50   | 74.7          | 56.8       |
-| MDBFNet 24[70]   | ResNet-50   | 76.6          | 55.6       |
-| RSFNet 24[71]    | ResNet101   | 73.6          | 55.1       |
-| MPMTNet-T        | SegformerB4 | 74.1          | 54.7       |
-| MPMTNet-S        | SegformerB2 | 70.3          | 50.8       |
-| MPMTNet-KD       | SegformerB2 | 73.5(3.2↑)    | 52.6(1.8↑) |
+| Model                       | Backbone    | MFNet Dataset |            |
+| --------------------------- | ----------- | ------------- | ---------- |
+|                             |             | mAcc(%)       | mIoU(%)    |
+| MFNet <sub>17</sub>[60]     | -           | 45.1          | 39.7       |
+| ACNet <sub>19</sub>[17]     | ResNet-50   | -             | 46.3       |
+| RTFNet <sub>19</sub>[62]    | ResNet-152  | 63.1          | 53.2       |
+| PSTNet <sub>20</sub>[61]    | ResNet-18   | -             | 48.4       |
+| ABMDRNet <sub>21</sub>[63]  | ResNet-50   | 69.5          | 54.8       |
+| MMDRNet <sub>23</sub>[64]   | ResNet-50   | 72.4          | 56.0       |
+| HAFFSeg <sub>23</sub>[65]   | MobileViT   | 73.8          | 59.2       |
+| FDCNet <sub>23</sub>[66]    | ResNet-50   | 74.1          | 56.3       |
+| MMSMCNet <sub>23</sub>[67]  | SegformerB3 | 75.2          | 58.1       |
+| CLSNet-S* <sub>24</sub>[68] | SegformerB2 | 74.7          | 57.3       |
+| MMDNet <sub>24</sub>[69]    | ResNet-50   | 74.7          | 56.8       |
+| MDBFNet <sub>24</sub>[70]   | ResNet-50   | 76.6          | 55.6       |
+| RSFNet <sub>24</sub>[71]    | ResNet101   | 73.6          | 55.1       |
+| MPMTNet-T                   | SegformerB4 | 74.1          | 54.7       |
+| MPMTNet-S                   | SegformerB2 | 70.3          | 50.8       |
+| MPMTNet-KD                  | SegformerB2 | 73.5(3.2↑)    | 52.6(1.8↑) |
 
 ​				**Table Ⅳ**   Evaluation metrics on PST900 obtained from compared methods. The best results are shown in bold.
 
-| Model            | Backbone    | PST900 Dataset |              |
-| ---------------- | ----------- | -------------- | ------------ |
-|                  |             | mAcc(%)        | mIoU(%)      |
-| MFNet ~17~[60]     | -           | 63.50          | 50.34        |
-| ACNet ~19~[17]     | ResNet-50   | 78.67          | 71.81        |
-| RTFNet 2019[62]    | ResNet-152  | 65.69          | 60.46        |
-| PSTNet 2020[61]    | ResNet-18   | -              | 68.36        |
-| ABMDRNet 2021[63]  | ResNet-50   | 79.06          | 71.33        |
-| MMDRNet 2023[64]   | ResNet-50   | 81.30          | 68.70        |
-| HAFFSeg 2023[65]   | MobileViT   | 96.10          | 83.80        |
-| FDCNet 2023[66]    | ResNet-50   | 85.96          | 77.11        |
-| MMSMCNet 2023[67]  | MiT-B3      | 95.20          | 79.80        |
-| CLSNet-S* 2024[68] | SegformerB2 | 94.59          | 78.41        |
-| MMDNet 2024[69]    | ResNet-50   | 91.04          | 74.62        |
-| MDBFNet 2024[70]   | ResNet-50   | 92.50          | 84.90        |
-| RSFNet 2024[71]    | ResNet101   | 85.70          | 79.10        |
-| MPMTNet-T        | SegformerB4 | 95.74          | 81.87        |
-| MPMTNet-S        | SegformerB2 | 94.01          | 74.71        |
-| MPMTNet-KD       | SegformerB2 | 95.11(1.1↑)    | 76.19(1.48↑) |
+| Model                       | Backbone    | PST900 Dataset |              |
+| --------------------------- | ----------- | -------------- | ------------ |
+|                             |             | mAcc(%)        | mIoU(%)      |
+| MFNet <sub>17</sub>[60]     | -           | 63.50          | 50.34        |
+| ACNet <sub>19</sub>[17]     | ResNet-50   | 78.67          | 71.81        |
+| RTFNet <sub>19</sub>[62]    | ResNet-152  | 65.69          | 60.46        |
+| PSTNet <sub>20</sub>[61]    | ResNet-18   | -              | 68.36        |
+| ABMDRNet <sub>21</sub>[63]  | ResNet-50   | 79.06          | 71.33        |
+| MMDRNet <sub>23</sub>[64]   | ResNet-50   | 81.30          | 68.70        |
+| HAFFSeg <sub>23</sub>[65]   | MobileViT   | 96.10          | 83.80        |
+| FDCNet <sub>23</sub>[66]    | ResNet-50   | 85.96          | 77.11        |
+| MMSMCNet <sub>23</sub>[67]  | MiT-B3      | 95.20          | 79.80        |
+| CLSNet-S* <sub>24</sub>[68] | SegformerB2 | 94.59          | 78.41        |
+| MMDNet <sub>24</sub>[69]    | ResNet-50   | 91.04          | 74.62        |
+| MDBFNet <sub>24</sub>[70]   | ResNet-50   | 92.50          | 84.90        |
+| RSFNet <sub>24</sub>[71]    | ResNet101   | 85.70          | 79.10        |
+| MPMTNet-T                   | SegformerB4 | 95.74          | 81.87        |
+| MPMTNet-S                   | SegformerB2 | 94.01          | 74.71        |
+| MPMTNet-KD                  | SegformerB2 | 95.11(1.1↑)    | 76.19(1.48↑) |
 
 ### Acknowledgement
 
