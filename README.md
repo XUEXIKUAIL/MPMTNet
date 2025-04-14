@@ -120,8 +120,8 @@ Put our pre-trained weight in the following file ./evaluate.py, and run [evaluat
 | MPMTNet-T       |                | 82.5      | 65.9 | 51.7 |
 | MPMTNet-S       |                | 81.7      | 63.3 | 49.2 |
 | MPMTNet-KD      |                | 82.2      | 64.1 | 50.8 |
-
-    ​**Table III**   Evaluation metrics on MFNet obtained from compared methods. The best results are shown in bold.
+ 
+   ​**Table III**   Evaluation metrics on MFNet obtained from compared methods. The best results are shown in bold.
 
 | Model                       | Backbone    | MFNet Dataset |            |
 | --------------------------- | ----------- | ------------- | ---------- |
